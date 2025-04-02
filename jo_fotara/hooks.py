@@ -1,6 +1,6 @@
 app_name = "jo_fotara"
 app_title = "Jo Fotara"
-app_publisher = "baselwaheed66@gmail.com"
+app_publisher = "Basel Waheed"
 app_description = "Integration With Jo Fotara in Jordon"
 app_email = "baselwaheed66@gmail.com"
 app_license = "mit"
@@ -8,18 +8,18 @@ app_license = "mit"
 # Apps
 # ------------------
 
-# required_apps = []
+required_apps = ["erpnext"]
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "jo_fotara",
-# 		"logo": "/assets/jo_fotara/logo.png",
-# 		"title": "Jo Fotara",
-# 		"route": "/jo_fotara",
-# 		"has_permission": "jo_fotara.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "jo_fotara",
+		"logo": "/assets/jo_fotara/images/fotara_logo.png",
+		"title": "Jo Fotara",
+		"route": "/app/jofotara",
+		# "has_permission": "jo_fotara.api.permission.has_app_permission"
+	}
+]
 
 # Includes in <head>
 # ------------------
@@ -43,7 +43,9 @@ app_license = "mit"
 # page_js = {"page" : "public/js/file.js"}
 
 # include js in doctype views
-# doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {
+    "Sales Invoice" : "public/js/sales_invoice.js"
+}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -97,7 +99,7 @@ app_license = "mit"
 # Name of the app being installed is passed as an argument
 
 # before_app_install = "jo_fotara.utils.before_app_install"
-# after_app_install = "jo_fotara.utils.after_app_install"
+after_app_install = "jo_fotara.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
@@ -137,13 +139,14 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	"Sales Invoice": {
+		"on_submit": "jo_fotara.fotara.invoice.send_invoice_after_submit",
+		"on_cancel" : "jo_fotara.fotara.invoice.check_cancellation_availability" ,
+		"on_trash" : "jo_fotara.fotara.invoice.check_for_deletion"
+
+	}
+}
 
 # Scheduled Tasks
 # ---------------
@@ -242,3 +245,12 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+
+regional_overrides = {
+    "Jordan": {
+		"erpnext.controllers.taxes_and_totals.update_itemised_tax_data": "jo_fotara.fotara.invoice.update_itemised_tax_data"
+	},
+}
+
+
+boot_session = "jo_fotara.startup.boot.boot_session"

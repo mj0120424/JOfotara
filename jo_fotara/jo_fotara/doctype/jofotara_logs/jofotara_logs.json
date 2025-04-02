@@ -1,0 +1,237 @@
+{
+ "actions": [],
+ "creation": "2025-03-27 17:54:03.315548",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "status",
+  "icv",
+  "actual_grand_total",
+  "column_break_hxap",
+  "company",
+  "uuid",
+  "column_break_yhjq",
+  "reference_doctype",
+  "reference_name",
+  "section_break_zjnw",
+  "response_text",
+  "request_tab",
+  "url",
+  "headers",
+  "invoice_encoded",
+  "response_details_tab",
+  "einv_status",
+  "column_break_koeg",
+  "einv_num",
+  "column_break_ifkd",
+  "einv_inv_uuid",
+  "section_break_wlyg",
+  "einv_results",
+  "einv_singed_invoice",
+  "einv_qr",
+  "xml_tab",
+  "download_request_xml",
+  "xml_content",
+  "response_xml_tab",
+  "download_response_xml",
+  "response_xml"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Company",
+   "options": "Company",
+   "search_index": 1
+  },
+  {
+   "fieldname": "reference_doctype",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Reference Doctype",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "reference_name",
+   "fieldtype": "Dynamic Link",
+   "in_list_view": 1,
+   "label": "Reference Name",
+   "options": "reference_doctype"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Success\nError",
+   "search_index": 1
+  },
+  {
+   "fieldname": "icv",
+   "fieldtype": "Int",
+   "label": "ICV"
+  },
+  {
+   "fieldname": "column_break_hxap",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "request_tab",
+   "fieldtype": "Tab Break",
+   "label": "Request Details"
+  },
+  {
+   "fieldname": "uuid",
+   "fieldtype": "Data",
+   "label": "UUID"
+  },
+  {
+   "fieldname": "invoice_encoded",
+   "fieldtype": "Long Text",
+   "label": "Invoice Encoded"
+  },
+  {
+   "fieldname": "xml_tab",
+   "fieldtype": "Tab Break",
+   "label": "Request XML"
+  },
+  {
+   "fieldname": "xml_content",
+   "fieldtype": "Code",
+   "label": "XML Content"
+  },
+  {
+   "fieldname": "section_break_zjnw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "actual_grand_total",
+   "fieldtype": "Float",
+   "label": "Actual Grand Total"
+  },
+  {
+   "fieldname": "response_details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Response Details"
+  },
+  {
+   "fieldname": "einv_status",
+   "fieldtype": "Data",
+   "label": "EINV STATUS"
+  },
+  {
+   "fieldname": "column_break_koeg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "einv_num",
+   "fieldtype": "Data",
+   "label": "EINV NUM"
+  },
+  {
+   "fieldname": "column_break_ifkd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "einv_inv_uuid",
+   "fieldtype": "Data",
+   "label": "EINV INV UUID"
+  },
+  {
+   "fieldname": "section_break_wlyg",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "einv_singed_invoice",
+   "fieldtype": "Small Text",
+   "label": "EINV SINGED INVOICE"
+  },
+  {
+   "fieldname": "url",
+   "fieldtype": "Small Text",
+   "label": "URL"
+  },
+  {
+   "fieldname": "column_break_yhjq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "einv_qr",
+   "fieldtype": "Small Text",
+   "label": "EINV QR"
+  },
+  {
+   "fieldname": "einv_results",
+   "fieldtype": "Small Text",
+   "label": "EINV RESULTS"
+  },
+  {
+   "fieldname": "response_text",
+   "fieldtype": "Long Text",
+   "label": "Response Text"
+  },
+  {
+   "fieldname": "headers",
+   "fieldtype": "Small Text",
+   "label": "Headers"
+  },
+  {
+   "fieldname": "response_xml_tab",
+   "fieldtype": "Tab Break",
+   "label": "Response XML"
+  },
+  {
+   "fieldname": "response_xml",
+   "fieldtype": "Code",
+   "label": "Response XML"
+  },
+  {
+   "fieldname": "download_request_xml",
+   "fieldtype": "Button",
+   "label": "Download Request XML"
+  },
+  {
+   "depends_on": "eval: doc.status == \"Success\"",
+   "fieldname": "download_response_xml",
+   "fieldtype": "Button",
+   "label": "Download Response XML"
+  }
+ ],
+ "grid_page_length": 50,
+ "in_create": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-30 18:07:49.673058",
+ "modified_by": "Administrator",
+ "module": "Jo Fotara",
+ "name": "JoFotara Logs",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

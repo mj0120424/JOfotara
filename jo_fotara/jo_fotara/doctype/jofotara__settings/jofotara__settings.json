@@ -1,0 +1,112 @@
+{
+ "actions": [],
+ "autoname": "field:company",
+ "creation": "2025-03-26 17:22:15.714143",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "company",
+  "company_name_in_arabic",
+  "enable_integration",
+  "column_break_myrz",
+  "sequence_of_income_source",
+  "tax_id",
+  "section_break_kypm",
+  "client_id",
+  "column_break_pxpe",
+  "client_secret"
+ ],
+ "fields": [
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "no_copy": 1,
+   "options": "Company",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "section_break_kypm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "client_id",
+   "fieldtype": "Small Text",
+   "label": "Client ID",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_pxpe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "client_secret",
+   "fieldtype": "Small Text",
+   "label": "Secret Key",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sequence_of_income_source",
+   "fieldtype": "Data",
+   "label": "Sequence of Income Source"
+  },
+  {
+   "description": "Legal Name",
+   "fieldname": "company_name_in_arabic",
+   "fieldtype": "Data",
+   "label": "Company Name In Arabic",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_myrz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tax_id",
+   "fieldtype": "Data",
+   "label": "Tax ID"
+  },
+  {
+   "default": "0",
+   "fieldname": "enable_integration",
+   "fieldtype": "Check",
+   "label": "Enable Integration"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-03-29 01:33:31.542416",
+ "modified_by": "Administrator",
+ "module": "Jo Fotara",
+ "name": "JoFotara  Settings",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "All",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

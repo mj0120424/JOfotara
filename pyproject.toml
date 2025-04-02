@@ -1,7 +1,7 @@
 [project]
 name = "jo_fotara"
 authors = [
-    { name = "baselwaheed66@gmail.com", email = "baselwaheed66@gmail.com"}
+    { name = "Basel Waheed", email = "baselwaheed66@gmail.com"}
 ]
 description = "Integration With Jo Fotara in Jordon"
 requires-python = ">=3.10"
@@ -9,6 +9,7 @@ readme = "README.md"
 dynamic = ["version"]
 dependencies = [
     # "frappe~=15.0.0" # Installed and managed by bench.
+    "lxml~=5.3.1"
 ]
 
 [build-system]

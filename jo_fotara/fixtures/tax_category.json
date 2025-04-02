@@ -1,0 +1,26 @@
+[
+ {
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Tax Category",
+  "modified": "2025-03-27 15:40:03.525810",
+  "name": "S",
+  "title": "S"
+ },
+ {
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Tax Category",
+  "modified": "2025-03-27 15:40:07.401932",
+  "name": "Z",
+  "title": "Z"
+ },
+ {
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Tax Category",
+  "modified": "2025-03-27 15:40:18.675073",
+  "name": "O",
+  "title": "O"
+ }
+]

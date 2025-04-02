@@ -1,0 +1,98 @@
+[
+ {
+  "country_subentity_code": "JO-BA",
+  "country_subentity_name": "Balqa",
+  "docstatus": 0,
+  "doctype": "Country Subentity Code",
+  "modified": "2025-03-27 15:54:46.902071",
+  "name": "JO-BA"
+ },
+ {
+  "country_subentity_code": "JO-MN",
+  "country_subentity_name": "Ma’an",
+  "docstatus": 0,
+  "doctype": "Country Subentity Code",
+  "modified": "2025-03-27 15:54:59.248020",
+  "name": "JO-MN"
+ },
+ {
+  "country_subentity_code": "JO-MD",
+  "country_subentity_name": "Madaba",
+  "docstatus": 0,
+  "doctype": "Country Subentity Code",
+  "modified": "2025-03-27 15:55:10.178746",
+  "name": "JO-MD"
+ },
+ {
+  "country_subentity_code": "JO-KA",
+  "country_subentity_name": "Karak",
+  "docstatus": 0,
+  "doctype": "Country Subentity Code",
+  "modified": "2025-03-27 15:55:59.537096",
+  "name": "JO-KA"
+ },
+ {
+  "country_subentity_code": "JO-MA",
+  "country_subentity_name": "Mafraq",
+  "docstatus": 0,
+  "doctype": "Country Subentity Code",
+  "modified": "2025-03-27 15:56:32.527476",
+  "name": "JO-MA"
+ },
+ {
+  "country_subentity_code": "JO-JA",
+  "country_subentity_name": "Jerash",
+  "docstatus": 0,
+  "doctype": "Country Subentity Code",
+  "modified": "2025-03-27 15:56:53.019066",
+  "name": "JO-JA"
+ },
+ {
+  "country_subentity_code": "JO-IR",
+  "country_subentity_name": "Irbid",
+  "docstatus": 0,
+  "doctype": "Country Subentity Code",
+  "modified": "2025-03-27 15:57:07.216847",
+  "name": "JO-IR"
+ },
+ {
+  "country_subentity_code": "JO-AZ",
+  "country_subentity_name": "Zarqa",
+  "docstatus": 0,
+  "doctype": "Country Subentity Code",
+  "modified": "2025-03-27 15:57:18.979984",
+  "name": "JO-AZ"
+ },
+ {
+  "country_subentity_code": "JO-AT",
+  "country_subentity_name": "At-Tafilah",
+  "docstatus": 0,
+  "doctype": "Country Subentity Code",
+  "modified": "2025-03-27 15:57:32.199855",
+  "name": "JO-AT"
+ },
+ {
+  "country_subentity_code": "JO-AQ",
+  "country_subentity_name": "Aqaba",
+  "docstatus": 0,
+  "doctype": "Country Subentity Code",
+  "modified": "2025-03-27 15:57:46.685021",
+  "name": "JO-AQ"
+ },
+ {
+  "country_subentity_code": "JO-AM",
+  "country_subentity_name": "Amman",
+  "docstatus": 0,
+  "doctype": "Country Subentity Code",
+  "modified": "2025-03-27 15:57:57.856114",
+  "name": "JO-AM"
+ },
+ {
+  "country_subentity_code": "JO-AJ",
+  "country_subentity_name": "Ajloun",
+  "docstatus": 0,
+  "doctype": "Country Subentity Code",
+  "modified": "2025-03-27 15:58:09.139332",
+  "name": "JO-AJ"
+ }
+]

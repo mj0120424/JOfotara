@@ -1,0 +1,26 @@
+[
+ {
+  "abr": "NIN",
+  "docstatus": 0,
+  "doctype": "Identification Types",
+  "identification_name": "Buyer’s national identification number",
+  "modified": "2025-03-27 15:36:50.659005",
+  "name": "NIN"
+ },
+ {
+  "abr": "PN",
+  "docstatus": 0,
+  "doctype": "Identification Types",
+  "identification_name": "For non Jordanians (passport, residence, ect.)",
+  "modified": "2025-03-27 15:37:05.414415",
+  "name": "PN"
+ },
+ {
+  "abr": "TN",
+  "docstatus": 0,
+  "doctype": "Identification Types",
+  "identification_name": "Buyer’s TIN",
+  "modified": "2025-03-27 15:37:20.043975",
+  "name": "TN"
+ }
+]

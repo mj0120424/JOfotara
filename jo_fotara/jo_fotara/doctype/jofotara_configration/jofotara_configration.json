@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-03-29 15:01:57.387112",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "enable_cancel_invoice",
+  "enable_delete_invoice",
+  "column_break_otaa",
+  "float_precision"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "enable_cancel_invoice",
+   "fieldtype": "Check",
+   "label": "Enable Cancel Invoice"
+  },
+  {
+   "default": "0",
+   "fieldname": "enable_delete_invoice",
+   "fieldtype": "Check",
+   "label": "Enable Delete Invoice"
+  },
+  {
+   "default": "8",
+   "fieldname": "float_precision",
+   "fieldtype": "Int",
+   "label": "Float Precision",
+   "non_negative": 1
+  },
+  {
+   "fieldname": "column_break_otaa",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-04-02 07:42:10.006253",
+ "modified_by": "Administrator",
+ "module": "Jo Fotara",
+ "name": "JoFotara Configration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
