@@ -1,6 +1,5 @@
 {
  "actions": [],
- "allow_rename": 1,
  "creation": "2025-03-29 15:01:57.387112",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -39,7 +38,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2025-04-02 07:42:10.006253",
+ "modified": "2025-04-04 17:19:24.574715",
  "modified_by": "Administrator",
  "module": "Jo Fotara",
  "name": "JoFotara Configration",
@@ -47,7 +46,6 @@
  "permissions": [
   {
    "create": 1,
-   "delete": 1,
    "email": 1,
    "print": 1,
    "read": 1,
