@@ -1,0 +1,164 @@
+{
+ "charts": [
+  {
+   "chart_name": "JoFotara Status",
+   "label": "JoFotara Status"
+  }
+ ],
+ "content": "[{\"id\":\"yD2aX6VRL-\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Jofotara Title\",\"col\":12}},{\"id\":\"h9T07Lp3wW\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"The Total\",\"col\":3}},{\"id\":\"AyHaaVwN5Q\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"All Notifications Issued\",\"col\":3}},{\"id\":\"v5le8XvB-P\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Invoices Issued for this year\",\"col\":3}},{\"id\":\"l-EJq8Sbf3\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"All Invoices Issued\",\"col\":3}},{\"id\":\"OxASNEFQDJ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"HtoZW4HSYs\",\"type\":\"chart\",\"data\":{\"chart_name\":\"JoFotara Status\",\"col\":6}},{\"id\":\"OTpRs1tQ-s\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"tXZz82jmin\",\"type\":\"card\",\"data\":{\"card_name\":\"Fotara Setup\",\"col\":4}},{\"id\":\"63ZU_Nl8or\",\"type\":\"card\",\"data\":{\"card_name\":\"Additional Doctypes\",\"col\":4}},{\"id\":\"4cE-MupgCv\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+ "creation": "2025-03-29 16:11:12.935124",
+ "custom_blocks": [
+  {
+   "custom_block_name": "Jofotara Title",
+   "label": "Jofotara Title"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "liabilities",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "JoFotara",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Fotara Setup",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "JoFotara  Settings",
+   "link_count": 0,
+   "link_to": "JoFotara  Settings",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "JoFotara Configration",
+   "link_count": 0,
+   "link_to": "JoFotara Configration",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "JoFotara Logs",
+   "link_count": 0,
+   "link_to": "JoFotara Logs",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Additional Doctypes",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tax Category",
+   "link_count": 0,
+   "link_to": "Tax Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Identification Types",
+   "link_count": 0,
+   "link_to": "Identification Types",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Item Tax Template",
+   "link_count": 0,
+   "link_to": "Item Tax Template",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Country Subentity Code",
+   "link_count": 0,
+   "link_to": "Country Subentity Code",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 1,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Rejected Invoices",
+   "link_count": 0,
+   "link_to": "Rejected Invoices",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-04-05 20:17:07.156771",
+ "modified_by": "Administrator",
+ "module": "Jo Fotara",
+ "name": "JoFotara",
+ "number_cards": [
+  {
+   "label": "All Notifications Issued",
+   "number_card_name": "All Notifications Issued"
+  },
+  {
+   "label": "The Total",
+   "number_card_name": "The Total"
+  },
+  {
+   "label": "All Invoices Issued",
+   "number_card_name": "All Invoices Issued"
+  },
+  {
+   "label": "Invoices Issued for this year",
+   "number_card_name": "Invoices Issued for this year"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [],
+ "title": "JoFotara"
+}
