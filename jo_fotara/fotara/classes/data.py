@@ -205,7 +205,7 @@ class JoFotaraData:
         item_line = {
             "InvoiceLine-ID": str(item.get("idx", 0)),
             "InvoicedQuantity": str(abs(item.get("qty", 0))),
-            "InvoicedQuantity-unitCode" : item.get("uom") ,
+            "InvoicedQuantity-unitCode" : "PCE" ,
             "LineExtensionAmount": str(line_extension_amount),
             "TaxAmount": str(tax_amount),
             "RoundingAmount": str(abs(item.get("rounding_amount", 0))),
