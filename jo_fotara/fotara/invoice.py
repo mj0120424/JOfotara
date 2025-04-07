@@ -131,7 +131,7 @@ def update_itemised_tax_data(doc):
             row.rounding_amount =  format_number(row.line_extension_amount + row.tax_amount )
 
         else :
-            row.price_amount = row.price_list_rate or row.net_rate 
+            row.price_amount = row.base_price_list_rate or row.base_net_rate 
             row.line_extension_amount = format_number(abs( row.price_amount * row.get('qty') ) - abs(row.get("discount_amount" , 0.00)))
             row.tax_amount = format_number(row.line_extension_amount * ( row.tax_rate / 100 ) ) 
             row.rounding_amount = format_number(row.line_extension_amount + row.tax_amount )
