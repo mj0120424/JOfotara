@@ -209,10 +209,15 @@ def create_additional_fields() :
             },
         ],
         "Sales Invoice Item" : SellingFields ,
-        "Sales Order Item" : SellingFields ,
         "POS Invoice Item" : SellingFields ,
+        "Purchase Invoice Item" : SellingFields ,
+        "Sales Order Item" : SellingFields ,
+        "Delivery Note Item" : SellingFields,
         "Quotation Item" : SellingFields ,
-        # "Delivery Note Item" : SellingFields,
+		'Purchase Order Item': SellingFields,
+		'Purchase Receipt Item': SellingFields,
+        'Supplier Quotation Item' : SellingFields ,
+
         "Sales Invoice Payment" : [
             {
                 "fieldname" : "payment_code" ,
